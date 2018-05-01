@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Metamorphous");
+
+@import url("https://fonts.googleapis.com/css?family=Josefin Sans");
+
+#main {
+	background: white;
+}
+
+h2 {
+	font-size: 50px;
+	margin: 35px auto;
+	margin-top: 80px;
+	font-family: Metamorphous;
+}
+
+h3, button {
+	font-family: Josefin Sans;
+}
+
+#buttonHolder {
+	margin: 30px auto;
+	width: 210px;
+	font-weight: bolder;
+}
+
+button {
+	font-size: 20px;
+	height: 45px;
+	border-radius: 5px;
+}
+
+button:hover {
+	background: #212F3C;
+	color: white;
+}
+
+button:focus {
+	outline: none;
+}
+
+canvas {
+	background: #28B463;
+	display: block;
+	margin: 35px auto;
+}
