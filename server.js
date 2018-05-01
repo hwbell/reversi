@@ -5,6 +5,6 @@ var strftime = require('strftime');
 
 var app = express();
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '')));
 
 app.listen(process.env.PORT || 8080);
